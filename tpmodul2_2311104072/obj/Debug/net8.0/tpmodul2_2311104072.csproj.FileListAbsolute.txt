@@ -1,0 +1,29 @@
+C:\Users\Administrator\Documents\vscode\C#\1. C# Fundamentals\tpmodul2_2311104072\tpmodul2_2311104072\bin\Debug\net8.0\tpmodul2_2311104072.exe
+C:\Users\Administrator\Documents\vscode\C#\1. C# Fundamentals\tpmodul2_2311104072\tpmodul2_2311104072\bin\Debug\net8.0\tpmodul2_2311104072.deps.json
+C:\Users\Administrator\Documents\vscode\C#\1. C# Fundamentals\tpmodul2_2311104072\tpmodul2_2311104072\bin\Debug\net8.0\tpmodul2_2311104072.runtimeconfig.json
+C:\Users\Administrator\Documents\vscode\C#\1. C# Fundamentals\tpmodul2_2311104072\tpmodul2_2311104072\bin\Debug\net8.0\tpmodul2_2311104072.dll
+C:\Users\Administrator\Documents\vscode\C#\1. C# Fundamentals\tpmodul2_2311104072\tpmodul2_2311104072\bin\Debug\net8.0\tpmodul2_2311104072.pdb
+C:\Users\Administrator\Documents\vscode\C#\1. C# Fundamentals\tpmodul2_2311104072\tpmodul2_2311104072\obj\Debug\net8.0\tpmodul2_2311104072.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Documents\vscode\C#\1. C# Fundamentals\tpmodul2_2311104072\tpmodul2_2311104072\obj\Debug\net8.0\tpmodul2_2311104072.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\vscode\C#\1. C# Fundamentals\tpmodul2_2311104072\tpmodul2_2311104072\obj\Debug\net8.0\tpmodul2_2311104072.AssemblyInfo.cs
+C:\Users\Administrator\Documents\vscode\C#\1. C# Fundamentals\tpmodul2_2311104072\tpmodul2_2311104072\obj\Debug\net8.0\tpmodul2_2311104072.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\vscode\C#\1. C# Fundamentals\tpmodul2_2311104072\tpmodul2_2311104072\obj\Debug\net8.0\tpmodul2_2311104072.sourcelink.json
+C:\Users\Administrator\Documents\vscode\C#\1. C# Fundamentals\tpmodul2_2311104072\tpmodul2_2311104072\obj\Debug\net8.0\tpmodul2_2311104072.dll
+C:\Users\Administrator\Documents\vscode\C#\1. C# Fundamentals\tpmodul2_2311104072\tpmodul2_2311104072\obj\Debug\net8.0\refint\tpmodul2_2311104072.dll
+C:\Users\Administrator\Documents\vscode\C#\1. C# Fundamentals\tpmodul2_2311104072\tpmodul2_2311104072\obj\Debug\net8.0\tpmodul2_2311104072.pdb
+C:\Users\Administrator\Documents\vscode\C#\1. C# Fundamentals\tpmodul2_2311104072\tpmodul2_2311104072\obj\Debug\net8.0\tpmodul2_2311104072.genruntimeconfig.cache
+C:\Users\Administrator\Documents\vscode\C#\1. C# Fundamentals\tpmodul2_2311104072\tpmodul2_2311104072\obj\Debug\net8.0\ref\tpmodul2_2311104072.dll
+C:\Users\Administrator\Documents\dok kuliah\semester 4\Software Construction\praktikum\tpmodul2_2311104072\bin\Debug\net8.0\tpmodul2_2311104072.exe
+C:\Users\Administrator\Documents\dok kuliah\semester 4\Software Construction\praktikum\tpmodul2_2311104072\bin\Debug\net8.0\tpmodul2_2311104072.deps.json
+C:\Users\Administrator\Documents\dok kuliah\semester 4\Software Construction\praktikum\tpmodul2_2311104072\bin\Debug\net8.0\tpmodul2_2311104072.runtimeconfig.json
+C:\Users\Administrator\Documents\dok kuliah\semester 4\Software Construction\praktikum\tpmodul2_2311104072\bin\Debug\net8.0\tpmodul2_2311104072.dll
+C:\Users\Administrator\Documents\dok kuliah\semester 4\Software Construction\praktikum\tpmodul2_2311104072\bin\Debug\net8.0\tpmodul2_2311104072.pdb
+C:\Users\Administrator\Documents\dok kuliah\semester 4\Software Construction\praktikum\tpmodul2_2311104072\obj\Debug\net8.0\tpmodul2_2311104072.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Documents\dok kuliah\semester 4\Software Construction\praktikum\tpmodul2_2311104072\obj\Debug\net8.0\tpmodul2_2311104072.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\dok kuliah\semester 4\Software Construction\praktikum\tpmodul2_2311104072\obj\Debug\net8.0\tpmodul2_2311104072.AssemblyInfo.cs
+C:\Users\Administrator\Documents\dok kuliah\semester 4\Software Construction\praktikum\tpmodul2_2311104072\obj\Debug\net8.0\tpmodul2_2311104072.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\dok kuliah\semester 4\Software Construction\praktikum\tpmodul2_2311104072\obj\Debug\net8.0\tpmodul2_2311104072.dll
+C:\Users\Administrator\Documents\dok kuliah\semester 4\Software Construction\praktikum\tpmodul2_2311104072\obj\Debug\net8.0\refint\tpmodul2_2311104072.dll
+C:\Users\Administrator\Documents\dok kuliah\semester 4\Software Construction\praktikum\tpmodul2_2311104072\obj\Debug\net8.0\tpmodul2_2311104072.pdb
+C:\Users\Administrator\Documents\dok kuliah\semester 4\Software Construction\praktikum\tpmodul2_2311104072\obj\Debug\net8.0\tpmodul2_2311104072.genruntimeconfig.cache
+C:\Users\Administrator\Documents\dok kuliah\semester 4\Software Construction\praktikum\tpmodul2_2311104072\obj\Debug\net8.0\ref\tpmodul2_2311104072.dll

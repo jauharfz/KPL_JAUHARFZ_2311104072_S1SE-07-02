@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\Documents\\dok kuliah\\semester 4\\Software Construction\\praktikum\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AC0DA6E2-8816-4024-8EF0-2AB7E000B634}|tpmodul2_2311104072\\tpmodul2_2311104072.csproj|c:\\users\\administrator\\documents\\dok kuliah\\semester 4\\software construction\\praktikum\\tpmodul2_2311104072\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC0DA6E2-8816-4024-8EF0-2AB7E000B634}|tpmodul2_2311104072\\tpmodul2_2311104072.csproj|solutionrelative:tpmodul2_2311104072\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\dok kuliah\\semester 4\\Software Construction\\praktikum\\tpmodul2_2311104072\\Program.cs",
+              "RelativeDocumentMoniker": "tpmodul2_2311104072\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\dok kuliah\\semester 4\\Software Construction\\praktikum\\tpmodul2_2311104072\\Program.cs",
+              "RelativeToolTip": "tpmodul2_2311104072\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T06:20:31.548Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
