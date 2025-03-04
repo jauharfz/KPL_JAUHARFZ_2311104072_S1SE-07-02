@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "tpmodul2_2311104072", "tpmo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tpmodul3_2311104072", "tpmodul3_2311104072\tpmodul3_2311104072.csproj", "{80DF6CDA-EF05-4226-BD67-D7854F83F905}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tpmodul4_2311104072", "tpmodul4_2311104072\tpmodul4_2311104072.csproj", "{E0B7CDFB-D784-48EF-B89D-DE785C3134AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "tpmodul4_2311104072", "tpmodul4_2311104072\tpmodul4_2311104072.csproj", "{E0B7CDFB-D784-48EF-B89D-DE785C3134AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Praktikum 4", "Praktikum 4\Praktikum 4.csproj", "{AAC31554-12E5-4506-9067-74BDAD6A9325}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{E0B7CDFB-D784-48EF-B89D-DE785C3134AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E0B7CDFB-D784-48EF-B89D-DE785C3134AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E0B7CDFB-D784-48EF-B89D-DE785C3134AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAC31554-12E5-4506-9067-74BDAD6A9325}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAC31554-12E5-4506-9067-74BDAD6A9325}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAC31554-12E5-4506-9067-74BDAD6A9325}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAC31554-12E5-4506-9067-74BDAD6A9325}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
