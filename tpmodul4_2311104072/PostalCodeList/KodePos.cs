@@ -1,4 +1,4 @@
-﻿namespace tpmodul4_2311104072.ListKodePos
+﻿namespace tpmodul4_2311104072.PostalCodeList
 {
     // Kelas KodePos: bertanggung jawab untuk lookup kode pos (Single Responsibility)
     public class KodePos : IKodePos

@@ -1,5 +1,9 @@
-﻿namespace tpmodul4_2311104072.ListKodePos
+﻿namespace tpmodul4_2311104072.PostalCodeList
 {
+    // =========================================================
+    // Bagian 1: Table-Driven (KodePos) - (Sudah dibuat sebelumnya)
+    // =========================================================
+
     // Interface untuk layanan pencarian kode pos (Dependency Inversion)
     public interface IKodePos
     {
