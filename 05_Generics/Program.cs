@@ -1,23 +1,28 @@
-﻿using System;
-
-public class DataGeneric
+﻿public class DataGeneric
 {
+    {
+        Console.WriteLine($"Halo user {username}");
+=========
+﻿public class DataGeneric
+{
+   public void SapaUser(string username)
+    {
+        Console.WriteLine($"Halo user {username}");
+    }
     private readonly string data;
     public DataGeneric(string _data)
     {
-        data = _data;
-    }
-    public void SapaUser(string username)
-    {
-        Console.WriteLine($"Halo user {username}");
-        Console.ReadKey();
     }
     public void PrintData()
     {
         Console.WriteLine($"Daya yang disimpan adalah: {data}");
+>>>>>>>>> Temporary merge branch 2
+        Console.ReadKey();
+        Console.ReadKey();
+        Console.ReadKey();
         Console.ReadKey();
     }
-}
+    
 class Program
 {
     public static void Main(string[] args)
