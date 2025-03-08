@@ -1,15 +1,26 @@
-﻿public class HaloGeneric
+public class DataGeneric
 {
-    public void SapaUser(string username)
+    private readonly string data;
+    public DataGeneric(string _data)
+    {
+        data = _data;
+    }
+   public void SapaUser(string username)
     {
         Console.WriteLine($"Halo user {username}");
-        Console.ReadKey();
     }
-}
-class Program
-{   public static void Main(string[] args)
+    public void PrintData()
     {
-        HaloGeneric testing = new HaloGeneric();
+        Console.WriteLine($"Daya yang disimpan adalah: {data}");
+    }
+    
+class Program
+{
+    public static void Main(string[] args)
+    {
+        string userInput = Console.ReadLine();
+        DataGeneric testing = new DataGeneric(userInput);
         testing.SapaUser("Almighty Jauhar Fajar Zuhair");
+        testing.PrintData();
     }
 }
