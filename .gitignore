@@ -1,0 +1,21 @@
+/packages/
+riderModule.iml
+/_ReSharper.Caches/
+# Konfigurasi IDE
+.vs/
+.idea/
+
+# Folder hasil build
+bin/
+obj/
+
+# File konfigurasi dan data user-specific
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# File log dan temporary
+*.log
+*.tmp
+*.temp
