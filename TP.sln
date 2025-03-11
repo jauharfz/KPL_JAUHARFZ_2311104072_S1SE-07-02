@@ -8,11 +8,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tpmodul4_2311104072", "04_T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tpmodul5_2311104072", "05_TP_Generics\tpmodul5_2311104072.csproj", "{BDCFEA82-D832-4BC4-9F4F-D94D059AED4C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Pengenalan_IDE_dan_Pemrograman_CSharp", "02_JM_Pengenalan_IDE_dan_Pemrograman_CSharp\02_Pengenalan_IDE_dan_Pemrograman_CSharp.csproj", "{9179A5BD-4028-4139-A010-2E582A250C73}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jmmodul2_2311104072", "02_JM_Pengenalan_IDE_dan_Pemrograman_CSharp\jmmodul2_2311104072.csproj", "{9179A5BD-4028-4139-A010-2E582A250C73}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_GUI_Builder_dan_GitHub", "03_JM_GUI_Builder_dan_GitHub\03_GUI_Builder_dan_GitHub.csproj", "{6F2B4C66-C5E6-4943-8443-0F2F990117CA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jmmodul3_2311104072", "03_JM_GUI_Builder_dan_GitHub\jmmodul3_2311104072.csproj", "{6F2B4C66-C5E6-4943-8443-0F2F990117CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_Automata_dan_Table-Driven_Construction", "04_JM_Automata_dan_Table-Driven_Construction\04_Automata_dan_Table-Driven_Construction.csproj", "{CAECCB75-E896-4F8C-A5D8-8CA7F8630C9E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jmmodul4_2311104072", "04_JM_Automata_dan_Table-Driven_Construction\jmmodul4_2311104072.csproj", "{CAECCB75-E896-4F8C-A5D8-8CA7F8630C9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jmmodul5_2311104072", "05_JM_Generics\jmmodul5_2311104072.csproj", "{5A0D3F95-6F5C-41B9-835C-40C30DF4A4F6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -48,5 +50,9 @@ Global
 		{CAECCB75-E896-4F8C-A5D8-8CA7F8630C9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CAECCB75-E896-4F8C-A5D8-8CA7F8630C9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CAECCB75-E896-4F8C-A5D8-8CA7F8630C9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A0D3F95-6F5C-41B9-835C-40C30DF4A4F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A0D3F95-6F5C-41B9-835C-40C30DF4A4F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A0D3F95-6F5C-41B9-835C-40C30DF4A4F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A0D3F95-6F5C-41B9-835C-40C30DF4A4F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
