@@ -1,30 +1,26 @@
-﻿public class DataGeneric
+﻿public class DataGeneric<T>
 {
-    private readonly string data;
-
-    public DataGeneric(string _data)
+    private readonly T data;
+    public DataGeneric(T _data)
     {
         data = _data;
     }
-
-    public void SapaUser(string username)
+    public void SapaUser(T username)
     {
         Console.WriteLine($"Halo user {username}");
     }
-
     public void PrintData()
     {
         Console.WriteLine($"Daya yang disimpan adalah: {data}");
         Console.ReadKey();
     }
 }
-
 class Program
     {
-        public static void Main(string[] args)
+        public static void Main()
         {
             string userInput = Console.ReadLine();
-            DataGeneric testing = new DataGeneric(userInput);
+            var testing = new DataGeneric<string>(userInput);
             testing.SapaUser("Almighty Jauhar Fajar Zuhair");
             testing.PrintData();
         }
