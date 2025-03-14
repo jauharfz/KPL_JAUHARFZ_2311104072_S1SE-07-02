@@ -24,7 +24,7 @@ class SimpleDatabse<T>
     }
     public void SumOfThreeNumbers<T>(T x, T y, T z) where T: IAdditionOperators<T,T,T>
     {
-        Console.WriteLine($"Hasil penjumlahan dari {x}, {y}, {z} adalah {x+y+z}");
+        Console.WriteLine($"results penjumlahan dari {x}, {y}, {z} adalah {x+y+z}");
     }
 }
 class Program
