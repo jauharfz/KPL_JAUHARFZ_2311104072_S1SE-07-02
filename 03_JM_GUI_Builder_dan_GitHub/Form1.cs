@@ -4,6 +4,7 @@ public partial class Form1 : Form
 {
     private double angkaPertama = 0;
     private string operatorOperasi = " ";
+    private double angkaKedua = 0;
     public Form1()
     {
         InitializeComponent();
@@ -20,12 +21,13 @@ public partial class Form1 : Form
     {
         angkaPertama = double.Parse(resultBox.Text);
         operatorOperasi = "+";
-        resultBox.Text = "";
+        angkaKedua = double.Parse(resultBox.Text);
+        resultBox.Text = angkaPertama + operatorOperasi; //display for second number
     }
 
     private void Results_Click(object sender, EventArgs e)
     {
-        double angkaKedua = double.Parse(resultBox.Text);
+       
         double hasil = 0;
 
         switch (operatorOperasi)
@@ -37,7 +39,7 @@ public partial class Form1 : Form
                 break;
         }
         resultBox.Text = hasil.ToString();
-        angkaPertama = hasil;
-        operatorOperasi = "";
+        /*angkaPertama = hasil;
+        operatorOperasi = "";*/
     }
 }
