@@ -1,51 +1,51 @@
-﻿namespace tpmodul4_2311104072.DoorMachine
+﻿using System.ComponentModel;
+
+namespace tpmodul4_2311104072.DoorMachine
 {
-    /// <summary>
-    /// Kelas DoorMachine yang menerapkan state-based construction.
-    /// </summary>
     public class DoorMachine
     {
-        private DoorState _currentState;
+        private DoorState current;
 
-        /// <summary>
-        /// Konstruktor. State awal adalah "Terkunci".
-        /// </summary>
         public DoorMachine()
         {
-            _currentState = DoorState.Terkunci;
-            Console.WriteLine("Pintu terkunci");
+            current = DoorState.TERKUNCI;
         }
 
-        /// <summary>
-        /// Method untuk membuka pintu (transisi dari Terkunci ke Terbuka).
-        /// </summary>
-        public void BukaPintu()
+        public void terbuka()
         {
-            if (_currentState == DoorState.Terkunci)
+            switch (current)
             {
-                _currentState = DoorState.Terbuka;
-                Console.WriteLine("Pintu tidak terkunci");
-            }
-            else
-            {
-                Console.WriteLine("Pintu sudah terbuka");
+                case DoorState.TERBUKA:
+                    Console.WriteLine("PINTUNYA MEMANG SUDAH TERBUKA!");
+                    break;
+                case DoorState.TERKUNCI:
+                    current = DoorState.TERBUKA;
+                    Console.WriteLine("pintu terbuka :)");
+                    break;
+                default:
+                    throw new InvalidEnumArgumentException("mff input tidak dikenali");
             }
         }
 
-        /// <summary>
-        /// Method untuk mengunci pintu (transisi dari Terbuka ke Terkunci).
-        /// </summary>
-        public void KunciPintu()
+        public void terkunci()
         {
-            if (_currentState == DoorState.Terbuka)
+            switch (current)
             {
-                _currentState = DoorState.Terkunci;
-                Console.WriteLine("Pintu terkunci");
+                case DoorState.TERBUKA:
+                    Console.WriteLine("pintu terkunci :)");
+                    current = DoorState.TERKUNCI;
+                    break;
+                case DoorState.TERKUNCI:
+                    Console.WriteLine("PINTUNYA MEMANG SUDAH TERKUNCI!");
+                    break;
+                default:
+                    throw new InvalidEnumArgumentException("mff input tidak dikenali");
             }
-            else
-            {
-                Console.WriteLine("Pintu sudah terkunci");
-            }
+        }
+
+        public void showState()
+        {
+            Console.WriteLine($"Kondisi pintunya sekarang itu {current}");
         }
     }
 }

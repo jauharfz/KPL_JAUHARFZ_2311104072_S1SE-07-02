@@ -1,17 +1,22 @@
 ﻿namespace _04_Automata_dan_Table_Driven_Construction;
-public enum CharaState{
+
+public enum CharaState
+{
     Berdiri,
     Jongkok,
     Tengkurap,
     Terbang
 }
+
 public class GameCharaPosition
 {
     public CharaState _currentState;
+
     public GameCharaPosition()
     {
         _currentState = CharaState.Berdiri;
     }
+
     public void PressTheSKey()
     {
         Console.WriteLine("Down Direction Key Pressed");
@@ -26,8 +31,11 @@ public class GameCharaPosition
             case CharaState.Terbang:
                 _currentState = CharaState.Berdiri;
                 break;
-        };
+        }
+
+        ;
     }
+
     public void PressTheWKey()
     {
         Console.WriteLine("Up Direction Key Pressed");
@@ -44,6 +52,7 @@ public class GameCharaPosition
                 break;
         }
     }
+
     public void PressTheXKey()
     {
         Console.WriteLine("X Key Pressed");
@@ -54,6 +63,7 @@ public class GameCharaPosition
                 break;
         }
     }
+
     public void ShowState()
     {
         Console.WriteLine($"Current State is {_currentState}");

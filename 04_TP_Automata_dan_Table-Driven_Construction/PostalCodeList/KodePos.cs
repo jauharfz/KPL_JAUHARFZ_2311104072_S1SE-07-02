@@ -1,15 +1,12 @@
 ﻿namespace tpmodul4_2311104072.PostalCodeList
 {
-    // Kelas KodePos: bertanggung jawab untuk lookup kode pos (Single Responsibility)
     public class KodePos : IKodePos
     {
-        // Tabel kelurahan dan kode pos (table-driven approach)
-        private readonly Dictionary<string, int> kodePosTable;
+        private readonly Dictionary<string, int> _kodePosTable;
 
         public KodePos()
         {
-            // Menggunakan StringComparer.OrdinalIgnoreCase agar lookup tidak case-sensitive
-            kodePosTable = new Dictionary<string, int>(StringComparer.OrdinalIgnoreCase)
+            _kodePosTable = new Dictionary<string, int>()
             {
                 { "Batununggal", 40266 },
                 { "A. Kujangsari", 40287 },
@@ -25,14 +22,19 @@
             };
         }
 
-        // Method lookup kode pos menggunakan table-driven approach
-        public int? GetKodePos(string kelurahan)
+        public int GetKodePos(string kelurahan)
         {
-            if (kodePosTable.TryGetValue(kelurahan, out int kodePos))
+            if (string.IsNullOrEmpty(kelurahan))
             {
-                return kodePos;
+                throw new ArgumentNullException("TOLONG DIISI DENGAN BENAR!");
             }
-            return null;
+
+            if (!_kodePosTable.TryGetValue(kelurahan, out int kodepos))
+            {
+                throw new KeyNotFoundException($"mff kelurahan {kelurahan} yang anda maksud tidak ditemukan");
+            }
+
+            return kodepos;
         }
     }
 }

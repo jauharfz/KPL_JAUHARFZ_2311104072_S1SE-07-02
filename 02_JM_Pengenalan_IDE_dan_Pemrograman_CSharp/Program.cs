@@ -39,7 +39,8 @@
             else if (i % 2 == 0)
             {
                 Console.WriteLine($"{i} ##");
-            }else if (i % 3 == 0)
+            }
+            else if (i % 3 == 0)
             {
                 Console.WriteLine($"{i} $$");
             }
@@ -60,6 +61,7 @@
                 Console.WriteLine("Input tidak valid");
                 continue;
             }
+
             isPrimeNumber(intUserInput2);
             break;
         }

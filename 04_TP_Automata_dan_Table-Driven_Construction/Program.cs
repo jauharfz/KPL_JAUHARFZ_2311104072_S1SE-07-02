@@ -5,45 +5,52 @@ using tpmodul4_2311104072.PostalCodeList;
 
 namespace TableDrivenExample
 {
-
-    // =========================================================
-    // Kelas utama program
-    // =========================================================
     class Program
     {
         static void Main(string[] args)
         {
-            // Contoh penggunaan Table-Driven (KodePos)
-            IKodePos kodePosService = new KodePos();
-            Console.Write("Masukkan nama kelurahan: ");
-            string kelurahanInput = Console.ReadLine();
+            /*IKodePos kodePos = new KodePos();
+            var kelurahanInput = Console.ReadLine();
+            Console.WriteLine(kodePos.GetKodePos(kelurahanInput));*/
 
-            int? kodePos = kodePosService.GetKodePos(kelurahanInput);
-            if (kodePos.HasValue)
+            DoorMachine current = new DoorMachine();
+            while (true)
             {
-                Console.WriteLine($"Kode pos untuk {kelurahanInput} adalah: {kodePos.Value}");
+                Console.WriteLine("Anda hanya punya 3 pilihan: ");
+                Console.WriteLine("1.Ketik buka untuk membuka pintu");
+                Console.WriteLine("2.Ketik tutup untuk menutup pintu");
+                Console.WriteLine("3. Ketik keluar untuk keluar");
+                current.showState();
+                var userInput = Console.ReadLine();
+                if (string.IsNullOrEmpty(userInput))
+                {
+                    Console.WriteLine("TIMDAK BOMLEH KOMSONMG!");
+                    Console.WriteLine();
+                    continue;
+                }
+
+                if (userInput.Equals("buka", StringComparison.OrdinalIgnoreCase))
+                {
+                    current.terbuka();
+                }
+                else if (userInput.Equals("kunci", StringComparison.OrdinalIgnoreCase))
+                {
+                    current.terkunci();
+                }
+                else if (userInput.Equals("keluar", StringComparison.OrdinalIgnoreCase))
+                {
+                    Console.WriteLine("GET - !");
+                    break;
+                }
+                else
+                {
+                    Console.WriteLine("mff input yang anda masukan timdak vamlid");
+                }
+
+                Console.WriteLine();
             }
-            else
-            {
-                Console.WriteLine("Kelurahan tidak ditemukan.");
-            }
 
-            Console.WriteLine();
-
-            // Contoh penggunaan State-Based Construction (DoorMachine)
-            DoorMachine doorMachine = new DoorMachine();
-
-            // Simulasi transisi state
-            Console.WriteLine("Tekan ENTER untuk membuka pintu...");
-            Console.ReadLine();
-            doorMachine.BukaPintu();    // Terkunci -> Terbuka
-
-            Console.WriteLine("Tekan ENTER untuk mengunci pintu...");
-            Console.ReadLine();
-            doorMachine.KunciPintu();  // Terbuka -> Terkunci
-
-            Console.WriteLine("\nTekan ENTER untuk keluar...");
-            Console.ReadLine();
+            Console.ReadKey();
         }
     }
 }

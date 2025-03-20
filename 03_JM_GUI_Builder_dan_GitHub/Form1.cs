@@ -20,6 +20,7 @@ public partial class Form1 : Form
         {
             return;
         }
+
         currentInput += button.Text;
         resultBox.Text += button.Text;
     }
@@ -36,7 +37,7 @@ public partial class Form1 : Form
 
     private void Results_Click(object sender, EventArgs e)
     {
-        if (!string.IsNullOrEmpty(currentInput) && results != 0 )
+        if (!string.IsNullOrEmpty(currentInput) && results != 0)
         {
             lastNumber = double.Parse(currentInput);
             results += lastNumber;

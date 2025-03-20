@@ -35,6 +35,7 @@ namespace tpmodul2_2311104072
             {
                 Console.WriteLine($"Angka genap {i + 1} : {evenNumbers[i]}");
             }
+
             Console.ReadKey();
         }
     }
