@@ -1,21 +1,18 @@
 /packages/
 riderModule.iml
 /_ReSharper.Caches/
-# Konfigurasi IDE
+#IDE Conf
 .vs/
 .idea/
-
-# Folder hasil build
+#Build Rslt
 bin/
 obj/
-
-# File konfigurasi dan data user-specific
+#Conf fls/usrdt
 *.user
 *.suo
 *.userosscache
 *.sln.docstates
-
-# File log dan temporary
+#Log/Tmp fls
 *.log
 *.tmp
 *.temp
