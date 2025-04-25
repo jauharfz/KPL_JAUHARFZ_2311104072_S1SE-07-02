@@ -15,4 +15,4 @@ obj/
 #Log/Tmp fls
 *.log
 *.tmp
-*.temp
+*.covidConfig
