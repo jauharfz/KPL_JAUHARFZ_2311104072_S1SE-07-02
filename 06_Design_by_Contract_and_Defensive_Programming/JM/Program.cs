@@ -1,16 +1,32 @@
-﻿using jmmodul6_2311104072;
-List<YouTubeVideo> youTubeVideos = new List<YouTubeVideo>()
+﻿using System.Numerics;
+using jmmodul6_2311104072;
+
+YouTubeUser youTubeUser = new YouTubeUser("jauharfz");
+string[] videoTitle =
 {
-    new YouTubeVideo("Ini"),
-    new YouTubeVideo("Adalah"),
-    new YouTubeVideo("Rekomendasi"),
-    new YouTubeVideo("Video"),
-    new YouTubeVideo("Youtube"),
-    new YouTubeVideo("Dari"),
-    new YouTubeVideo("Saya"),
-    new YouTubeVideo("Sendiri"),
-    new YouTubeVideo("Ok"),
-    new YouTubeVideo("Selesai")
+    "Video Pertama",
+    "Video Kedua",
+    "Video Ketiga",
+    "Video Keempat",
+    "Video Kelima",
+    "Video Keenam",
+    "Video Ketujuh",
+    "Video Kedelapan",
+    "Video Kesembilan",
+    "Video Kesepuluh"
 };
-YouTubeUser youTubeUser = new YouTubeUser(youTubeVideos, "jauharfz");
+foreach (var video in videoTitle)
+{
+    YouTubeVideo youTubeVideo = new YouTubeVideo(video);
+    youTubeUser.AddVideo(youTubeVideo);
+}
+
 youTubeUser.PrintAllVideoPlayCount();
+for (int i = 0; i < 1000; i++)
+{
+    foreach (var youTube in youTubeUser._uploadedVideos)
+    {
+        youTube.IncreasePlayCount(10000000 - 1);
+        youTube.PrintVideoDetails();
+    }
+}
