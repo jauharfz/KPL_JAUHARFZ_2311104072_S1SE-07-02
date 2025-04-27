@@ -23,9 +23,8 @@ public class YouTubeUser
         int uploadedVideo = 0;
         foreach (var temp in _uploadedVideos)
         {
-            uploadedVideo = temp.PlayCount;
+            uploadedVideo += temp.PlayCount;
         }
-
         return uploadedVideo;
     }
 
@@ -44,6 +43,5 @@ public class YouTubeUser
             Console.WriteLine($"Video {i+1} judul: {_uploadedVideos[i].Title}");
         }
         Contract.Ensures(_uploadedVideos.Count <= 8);
-        
     }
 }
