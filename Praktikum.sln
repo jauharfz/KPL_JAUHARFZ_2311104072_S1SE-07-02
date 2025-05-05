@@ -1,5 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tpmodul2_2311104072", "02_Pengenalan_IDE_dan_Pemrograman_CSharp\TP\tpmodul2_2311104072.csproj", "{EEC1D48D-8544-42E5-A852-F31439D8A8D2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tpmodul3_2311104072", "03_GUI_Builder_and_GitHub\TP\tpmodul3_2311104072.csproj", "{B43448E8-9745-4E78-9DCB-E54C4BA30599}"
@@ -22,13 +25,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tpmodul8_2311104072", "08_R
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "praktikum8", "08_Runtime_Configuration_and_Internalization\praktikum8\praktikum8.csproj", "{EAC5849D-8BAB-49E4-9A55-D6E0FB3FE0C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tpmodul9_2311104072", "09_API_Design_and_Construction_Swagger\TP\tpmodul9_2311104072.csproj", "{C3CB3499-3B03-4C6C-A51D-BA8D0A2FF1EA}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jmmodul6_2311104072", "06_Design_by_Contract_and_Defensive_Programming\JM\jmmodul6_2311104072.csproj", "{112BAEC1-C96C-4A17-9FF0-2C09DA31DE76}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibraryProjects", "ClassLibraryProjects\ClassLibraryProjects.csproj", "{479D1A8E-FE9B-40CE-8FE2-B4B055AE8FD7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShowCase", "ShowCase\ShowCase.csproj", "{2D3F3C14-F3B4-4083-9E08-B738891CBBC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tpmodul9_2311104072", "tpmodul9_2311104072\tpmodul9_2311104072.csproj", "{13B2404E-B1B8-4A26-ABA6-522F69D796AD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -80,10 +83,6 @@ Global
 		{EAC5849D-8BAB-49E4-9A55-D6E0FB3FE0C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EAC5849D-8BAB-49E4-9A55-D6E0FB3FE0C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EAC5849D-8BAB-49E4-9A55-D6E0FB3FE0C9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C3CB3499-3B03-4C6C-A51D-BA8D0A2FF1EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C3CB3499-3B03-4C6C-A51D-BA8D0A2FF1EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C3CB3499-3B03-4C6C-A51D-BA8D0A2FF1EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C3CB3499-3B03-4C6C-A51D-BA8D0A2FF1EA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{112BAEC1-C96C-4A17-9FF0-2C09DA31DE76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{112BAEC1-C96C-4A17-9FF0-2C09DA31DE76}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{112BAEC1-C96C-4A17-9FF0-2C09DA31DE76}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -96,5 +95,12 @@ Global
 		{2D3F3C14-F3B4-4083-9E08-B738891CBBC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D3F3C14-F3B4-4083-9E08-B738891CBBC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D3F3C14-F3B4-4083-9E08-B738891CBBC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13B2404E-B1B8-4A26-ABA6-522F69D796AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13B2404E-B1B8-4A26-ABA6-522F69D796AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13B2404E-B1B8-4A26-ABA6-522F69D796AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13B2404E-B1B8-4A26-ABA6-522F69D796AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal
