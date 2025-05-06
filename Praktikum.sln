@@ -31,7 +31,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibraryProjects", "Cla
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShowCase", "ShowCase\ShowCase.csproj", "{2D3F3C14-F3B4-4083-9E08-B738891CBBC2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tpmodul9_2311104072", "tpmodul9_2311104072\tpmodul9_2311104072.csproj", "{13B2404E-B1B8-4A26-ABA6-522F69D796AD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tpmodul9_2311104072", "09_API_Design_and_Construction_Swagger\TP\tpmodul9_2311104072.csproj", "{13B2404E-B1B8-4A26-ABA6-522F69D796AD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
