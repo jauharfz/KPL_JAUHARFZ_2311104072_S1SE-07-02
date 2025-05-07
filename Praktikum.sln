@@ -33,7 +33,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShowCase", "ShowCase\ShowCa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tpmodul9_2311104072", "09_API_Design_and_Construction_Swagger\TP\tpmodul9_2311104072.csproj", "{13B2404E-B1B8-4A26-ABA6-522F69D796AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tpmodul10_2311104072", "10_Library_Construction\tpmodul10_2311104072\tpmodul10_2311104072.csproj", "{3753720A-D5C1-46D6-9449-9A91413BD555}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tpmodul10_2311104072", "10_Library_Construction\TP\tpmodul10_2311104072.csproj", "{3753720A-D5C1-46D6-9449-9A91413BD555}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgebraLibrary", "10_Library_Construction\AlgebraLibrary\AlgebraLibrary.csproj", "{96E225C9-82D5-466A-A704-040621682BCF}"
 EndProject
