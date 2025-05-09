@@ -41,6 +41,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tpmodul12_2311104072", "12_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject-TP", "12_Performance_Analysis_Unit_Testing_and_Debugging\TestProject-TP\TestProject-TP.csproj", "{D5C288FC-C82B-4287-8B23-B98BC5603710}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "praktikum12", "12_Performance_Analysis_Unit_Testing_and_Debugging\praktikum12\praktikum12.csproj", "{02A6F50D-F4FF-4761-A40B-C074A816758A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "unitTest_Praktikum12", "unitTest_Praktikum12\unitTest_Praktikum12.csproj", "{D54AC4F1-B104-44FE-825D-C0098CCC7857}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +127,14 @@ Global
 		{D5C288FC-C82B-4287-8B23-B98BC5603710}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5C288FC-C82B-4287-8B23-B98BC5603710}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5C288FC-C82B-4287-8B23-B98BC5603710}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02A6F50D-F4FF-4761-A40B-C074A816758A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02A6F50D-F4FF-4761-A40B-C074A816758A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02A6F50D-F4FF-4761-A40B-C074A816758A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02A6F50D-F4FF-4761-A40B-C074A816758A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D54AC4F1-B104-44FE-825D-C0098CCC7857}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D54AC4F1-B104-44FE-825D-C0098CCC7857}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D54AC4F1-B104-44FE-825D-C0098CCC7857}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D54AC4F1-B104-44FE-825D-C0098CCC7857}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
