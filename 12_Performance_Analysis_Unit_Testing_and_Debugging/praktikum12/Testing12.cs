@@ -25,7 +25,6 @@ namespace praktikum12
                     return grade.Value;
                 }
             }
-
             return "F"; // Default grade jika nilai di bawah semua threshold
         }
 
