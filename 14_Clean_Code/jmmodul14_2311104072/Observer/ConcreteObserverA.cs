@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace tpmodul14_2311104072;
+namespace jmmodul14_2311104072;
 
 class ConcreteObserverA : IObserver
 {

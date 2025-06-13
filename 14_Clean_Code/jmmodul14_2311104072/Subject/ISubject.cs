@@ -1,4 +1,4 @@
-﻿namespace tpmodul14_2311104072;
+﻿namespace jmmodul14_2311104072;
 
 public interface ISubject
 {

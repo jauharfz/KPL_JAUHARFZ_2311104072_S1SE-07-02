@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Threading;
 
-namespace tpmodul14_2311104072;
+namespace jmmodul14_2311104072;
 
 public class Subject : ISubject
 {
