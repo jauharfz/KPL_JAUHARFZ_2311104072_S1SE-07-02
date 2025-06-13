@@ -57,6 +57,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jmmodul10_2311104072", "10_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathLibraries", "10_Library_Construction\MathLibraries\MathLibraries.csproj", "{B5C6E4AF-F098-4D4B-8127-71BA155EDA4B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jmmodul12_2311104072", "12_Performance_Analysis_Unit_Testing_and_Debugging\jmmodul12_2311104072\jmmodul12_2311104072.csproj", "{F59E8E7F-0682-4A2B-9AF5-5FB6A96BE921}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerCalculatorApp.Tests", "12_Performance_Analysis_Unit_Testing_and_Debugging\PowerCalculatorApp.Tests\PowerCalculatorApp.Tests.csproj", "{1A9C5214-4EB4-4581-8C62-21FEBA9FF46E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -171,6 +175,14 @@ Global
 		{B5C6E4AF-F098-4D4B-8127-71BA155EDA4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B5C6E4AF-F098-4D4B-8127-71BA155EDA4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B5C6E4AF-F098-4D4B-8127-71BA155EDA4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F59E8E7F-0682-4A2B-9AF5-5FB6A96BE921}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F59E8E7F-0682-4A2B-9AF5-5FB6A96BE921}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F59E8E7F-0682-4A2B-9AF5-5FB6A96BE921}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F59E8E7F-0682-4A2B-9AF5-5FB6A96BE921}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A9C5214-4EB4-4581-8C62-21FEBA9FF46E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A9C5214-4EB4-4581-8C62-21FEBA9FF46E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A9C5214-4EB4-4581-8C62-21FEBA9FF46E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A9C5214-4EB4-4581-8C62-21FEBA9FF46E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
