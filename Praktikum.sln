@@ -49,6 +49,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tpmodul13_2311104072", "13_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tpmodul14_2311104072", "14_Clean_Code\tpmodul14_2311104072\tpmodul14_2311104072.csproj", "{0592C5CF-237E-476F-992A-99A480B124BF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jmmodul8_2311104072", "08_Runtime_Configuration_and_Internalization\jmmodul8_2311104072\jmmodul8_2311104072.csproj", "{FA76F987-C305-4956-A508-5E2EE880B8C3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -147,6 +149,10 @@ Global
 		{0592C5CF-237E-476F-992A-99A480B124BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0592C5CF-237E-476F-992A-99A480B124BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0592C5CF-237E-476F-992A-99A480B124BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA76F987-C305-4956-A508-5E2EE880B8C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA76F987-C305-4956-A508-5E2EE880B8C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA76F987-C305-4956-A508-5E2EE880B8C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA76F987-C305-4956-A508-5E2EE880B8C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
