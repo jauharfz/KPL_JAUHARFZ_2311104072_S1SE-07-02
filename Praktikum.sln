@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35707.178 d17.12
+VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tpmodul2_2311104072", "02_Pengenalan_IDE_dan_Pemrograman_CSharp\TP\tpmodul2_2311104072.csproj", "{EEC1D48D-8544-42E5-A852-F31439D8A8D2}"
 EndProject
@@ -50,6 +50,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tpmodul14_2311104072", "14_Clean_Code\tpmodul14_2311104072\tpmodul14_2311104072.csproj", "{0592C5CF-237E-476F-992A-99A480B124BF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jmmodul8_2311104072", "08_Runtime_Configuration_and_Internalization\jmmodul8_2311104072\jmmodul8_2311104072.csproj", "{FA76F987-C305-4956-A508-5E2EE880B8C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jmmodul9", "09_API_Design_and_Construction_Swagger\jmmodul9\jmmodul9.csproj", "{E427EADF-81A6-4F03-8621-76A2F8A7D3C7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +155,10 @@ Global
 		{FA76F987-C305-4956-A508-5E2EE880B8C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA76F987-C305-4956-A508-5E2EE880B8C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA76F987-C305-4956-A508-5E2EE880B8C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E427EADF-81A6-4F03-8621-76A2F8A7D3C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E427EADF-81A6-4F03-8621-76A2F8A7D3C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E427EADF-81A6-4F03-8621-76A2F8A7D3C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E427EADF-81A6-4F03-8621-76A2F8A7D3C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
