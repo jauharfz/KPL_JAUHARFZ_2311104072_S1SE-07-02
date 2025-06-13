@@ -61,6 +61,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jmmodul12_2311104072", "12_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerCalculatorApp.Tests", "12_Performance_Analysis_Unit_Testing_and_Debugging\PowerCalculatorApp.Tests\PowerCalculatorApp.Tests.csproj", "{1A9C5214-4EB4-4581-8C62-21FEBA9FF46E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jmmodul13_2311104072", "13_Design_Pattern_Implementation\jmmodul13_2311104072\jmmodul13_2311104072.csproj", "{EDFC1BB1-A13C-4200-85D7-9068EA56AC9C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -183,6 +185,10 @@ Global
 		{1A9C5214-4EB4-4581-8C62-21FEBA9FF46E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A9C5214-4EB4-4581-8C62-21FEBA9FF46E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A9C5214-4EB4-4581-8C62-21FEBA9FF46E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDFC1BB1-A13C-4200-85D7-9068EA56AC9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDFC1BB1-A13C-4200-85D7-9068EA56AC9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDFC1BB1-A13C-4200-85D7-9068EA56AC9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDFC1BB1-A13C-4200-85D7-9068EA56AC9C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
