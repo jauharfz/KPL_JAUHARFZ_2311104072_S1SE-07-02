@@ -20,6 +20,4 @@ class Program
         }
     }
 }
-// namespace jmmodul7_2311104072; // (Asumsi namespace)
-
 

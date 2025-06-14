@@ -69,6 +69,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tpmodul7_2311104072", "07_P
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jmmodul7_2311104072", "07_Parsing\jmmodul7_2311104072\jmmodul7_2311104072.csproj", "{12FF58D9-2CE0-49F9-A6E2-AA1E90A290FA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jmmodul15_2311104072", "15_Secure_Code\jmmodul15_2311104072\jmmodul15_2311104072.csproj", "{48BA0DA6-7824-45C0-90B5-CC6EAC9BB9D8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -207,6 +209,10 @@ Global
 		{12FF58D9-2CE0-49F9-A6E2-AA1E90A290FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12FF58D9-2CE0-49F9-A6E2-AA1E90A290FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12FF58D9-2CE0-49F9-A6E2-AA1E90A290FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48BA0DA6-7824-45C0-90B5-CC6EAC9BB9D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48BA0DA6-7824-45C0-90B5-CC6EAC9BB9D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48BA0DA6-7824-45C0-90B5-CC6EAC9BB9D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48BA0DA6-7824-45C0-90B5-CC6EAC9BB9D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
